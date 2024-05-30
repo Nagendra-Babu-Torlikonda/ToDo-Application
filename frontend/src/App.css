@@ -1,0 +1,117 @@
+.heroHead{
+    text-align: center;
+    font-size: 5rem;
+    margin: 1rem 0 0 0;
+    color: yellow;
+}
+
+.content{
+    max-width: 80%;
+    width: 100%;
+    margin: 5vh auto;
+}
+
+.inputBar{
+    
+    /* border: 1px solid aqua;
+    border-radius: 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskinput{
+    background-color: rgb(50,50,50);
+    border: none;
+    color: aqua;
+    border-bottom: 2px solid aqua;
+    outline: none;
+    margin: 1rem ;
+    width: 40vw;
+    font-size: 1.2rem;
+}
+
+.addButton{
+    background-color: rgb(50,50,50);
+    border: 2px solid aqua;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.4rem 1rem;
+    color: aqua;
+    font-size: large;
+}
+
+.addButton:hover{
+    color: rgb(40,40,40);
+    background-color: aqua;
+}
+
+.tasksList{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aqua;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+}
+
+/* .taskText{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+} */
+
+.deleteAllbutton{ 
+    margin: 0 1rem 0 auto;
+    cursor: pointer;
+}
+
+.deleteButton{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.taskDoneButton{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.lists{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.completedTasksList{
+    width: 30vw;
+    margin: 0 2rem;
+    padding: 0 2rem;
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+}
+
+.undoButton{
+    margin-left : auto;
+    cursor: pointer;
+}
+
+.headingBar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.headingText{
+    font-size: larger;
+    font-weight: bolder;
+    color: yellow;
+}
